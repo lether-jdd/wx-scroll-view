@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "demo",
+  "usingComponents": {
+    "scroll-list": "/components/scrollList/scrollList"
+  }
+}

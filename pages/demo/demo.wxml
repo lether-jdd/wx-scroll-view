@@ -1,0 +1,3 @@
+<view>
+  <scroll-list url="{{listUrl}}" param="{{currentKey}}" minus-element="{{minusElement}}"></scroll-list>
+</view>

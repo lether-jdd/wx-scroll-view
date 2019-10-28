@@ -1,0 +1,8 @@
+{
+	"pages": [
+		"pages/demo/demo"
+	],
+	"window": {
+		"navigationBarTitleText": "图片预加载测试页面"
+	}
+}

@@ -1,0 +1,17 @@
+<view>
+    <import src="item.wxml" />
+  <scroll-view  scroll-y="true"   style="height: {{scrollHeight}}px"  bindscrolltolower='getData'  bindscrolltoupper="refresh"  bindtouchstart="start" bindtouchend="end">
+    <view wx:if="{{listData.length>0}}">
+      <view wx:for="{{listData}}" wx:key="{{index}}" class="item-card">
+        <view>
+          <template  is="content" data="{{index,item}}"/>
+        </view>
+      </view>
+      <!-- 解决ios下的margin-bottom -->
+      <view style="height: 1rpx;"></view>
+    </view>
+    <view wx:else>
+      暂无数据
+    </view>
+  </scroll-view>
+</view>

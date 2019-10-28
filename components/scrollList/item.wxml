@@ -1,0 +1,6 @@
+<template name="content">
+  <view class="item-detail">
+    {{index}}
+    {{item.value}}
+  </view>
+</template>
